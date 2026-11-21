@@ -1,0 +1,12 @@
+test_abstractas (test_software_fj.PruebasSoftwareFJ.test_abstractas) ... ok
+test_calculo_simple_y_combinado (test_software_fj.PruebasSoftwareFJ.test_calculo_simple_y_combinado) ... ok
+test_confirmacion_bloquea_y_cancelacion_libera (test_software_fj.PruebasSoftwareFJ.test_confirmacion_bloquea_y_cancelacion_libera) ... ok
+test_encadenamiento_del_impuesto (test_software_fj.PruebasSoftwareFJ.test_encadenamiento_del_impuesto) ... ok
+test_no_agrega_reserva_invalida (test_software_fj.PruebasSoftwareFJ.test_no_agrega_reserva_invalida) ... ok
+test_normaliza_codigos_y_rechaza_duplicados (test_software_fj.PruebasSoftwareFJ.test_normaliza_codigos_y_rechaza_duplicados) ... ok
+test_polimorfismo (test_software_fj.PruebasSoftwareFJ.test_polimorfismo) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK
