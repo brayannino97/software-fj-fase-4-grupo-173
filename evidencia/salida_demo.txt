@@ -1,0 +1,25 @@
+01 [OK] Cliente válido: Cliente C01
+02 [OK] Correo inválido: DatoInvalido: Correo: formato inválido
+03 [OK] Cliente duplicado: OperacionNoPermitida: Ya existe un elemento con ese código
+04 [OK] Servicio tipo sala: Reserva de sala: Principal (S01), 50,000.00 COP/h
+05 [OK] Tipo de servicio no reconocido: DatoInvalido: Tipo de servicio desconocido
+06 [OK] Equipo con tarifa inválida: DatoInvalido: Tarifa por hora: se esperaba un número entre 0.01 y 100000000
+07 [OK] Servicio tipo equipo: Alquiler de equipos: Proyector (S02), 20,000.00 COP/h
+08 [OK] Servicio tipo asesoría: Asesoría especializada: Soporte (S03), 80,000.00 COP/h
+09 [OK] Reserva con código de cliente faltante: DatoInvalido: Código: falta un texto válido
+10 [OK] Reserva con duración inválida: DatoInvalido: Duración: se esperaba un número entre 0.25 y 24
+11 [OK] Reserva de sala con impuesto y descuento: R01 | C01/S01 | 2 h | pendiente | 107,100.00 COP
+12 [OK] Confirmación de sala: R01 | C01/S01 | 2 h | confirmada | 107,100.00 COP
+13 [OK] Reserva sobre servicio ocupado: ServicioNoDisponible: El servicio está ocupado o inactivo
+14 [OK] Procesamiento de sala: R01 | C01/S01 | 2 h | procesada | 107,100.00 COP
+15 [OK] Cancelación de reserva procesada: OperacionNoPermitida: Solo se puede cancelar una reserva pendiente o confirmada
+16 [OK] Reserva de equipo con impuesto inconsistente: CalculoInvalido: No se pudo calcular el costo: revise impuesto y descuento
+17 [OK] Equipo desactivado: Alquiler de equipos: Proyector (S02), 20,000.00 COP/h
+18 [OK] Reserva de equipo inactivo: ServicioNoDisponible: El servicio está ocupado o inactivo
+19 [OK] Equipo reactivado: Alquiler de equipos: Proyector (S02), 20,000.00 COP/h
+20 [OK] Reserva de dos unidades de equipo: R02 | C01/S02 | 1.5 h | pendiente | 60,000.00 COP
+21 [OK] Cancelación de equipo: R02 | C01/S02 | 1.5 h | cancelada | 60,000.00 COP
+22 [OK] Reserva de asesoría presencial: R03 | C01/S03 | 1 h | pendiente | 92,000.00 COP
+23 [OK] Confirmación de asesoría: R03 | C01/S03 | 1 h | confirmada | 92,000.00 COP
+
+Resultado: 23/23 casos con el resultado esperado.

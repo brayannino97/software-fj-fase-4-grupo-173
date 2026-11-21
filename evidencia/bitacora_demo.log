@@ -1,0 +1,74 @@
+2026-11-19 21:23:46,708 | INFO | Inicio: Cliente válido
+2026-11-19 21:23:46,709 | INFO | Éxito: Cliente válido
+2026-11-19 21:23:46,709 | INFO | Cierre: Cliente válido
+2026-11-19 21:23:46,709 | INFO | Inicio: Correo inválido
+2026-11-19 21:23:46,709 | ERROR | Correo inválido: Correo: formato inválido (DatoInvalido)
+2026-11-19 21:23:46,709 | INFO | Cierre: Correo inválido
+2026-11-19 21:23:46,709 | INFO | Inicio: Cliente duplicado
+2026-11-19 21:23:46,709 | ERROR | Cliente duplicado: Ya existe un elemento con ese código (OperacionNoPermitida)
+2026-11-19 21:23:46,709 | INFO | Cierre: Cliente duplicado
+2026-11-19 21:23:46,709 | INFO | Inicio: Servicio tipo sala
+2026-11-19 21:23:46,709 | INFO | Éxito: Servicio tipo sala
+2026-11-19 21:23:46,709 | INFO | Cierre: Servicio tipo sala
+2026-11-19 21:23:46,709 | INFO | Inicio: Tipo de servicio no reconocido
+2026-11-19 21:23:46,709 | ERROR | Tipo de servicio no reconocido: Tipo de servicio desconocido (DatoInvalido)
+2026-11-19 21:23:46,709 | INFO | Causa técnica: KeyError
+2026-11-19 21:23:46,709 | INFO | Cierre: Tipo de servicio no reconocido
+2026-11-19 21:23:46,709 | INFO | Inicio: Equipo con tarifa inválida
+2026-11-19 21:23:46,709 | ERROR | Equipo con tarifa inválida: Tarifa por hora: se esperaba un número entre 0.01 y 100000000 (DatoInvalido)
+2026-11-19 21:23:46,709 | INFO | Causa técnica: ValueError
+2026-11-19 21:23:46,709 | INFO | Cierre: Equipo con tarifa inválida
+2026-11-19 21:23:46,709 | INFO | Inicio: Servicio tipo equipo
+2026-11-19 21:23:46,709 | INFO | Éxito: Servicio tipo equipo
+2026-11-19 21:23:46,709 | INFO | Cierre: Servicio tipo equipo
+2026-11-19 21:23:46,709 | INFO | Inicio: Servicio tipo asesoría
+2026-11-19 21:23:46,709 | INFO | Éxito: Servicio tipo asesoría
+2026-11-19 21:23:46,709 | INFO | Cierre: Servicio tipo asesoría
+2026-11-19 21:23:46,709 | INFO | Inicio: Reserva con código de cliente faltante
+2026-11-19 21:23:46,709 | ERROR | Reserva con código de cliente faltante: Código: falta un texto válido (DatoInvalido)
+2026-11-19 21:23:46,709 | INFO | Cierre: Reserva con código de cliente faltante
+2026-11-19 21:23:46,709 | INFO | Inicio: Reserva con duración inválida
+2026-11-19 21:23:46,709 | ERROR | Reserva con duración inválida: Duración: se esperaba un número entre 0.25 y 24 (DatoInvalido)
+2026-11-19 21:23:46,709 | INFO | Causa técnica: ValueError
+2026-11-19 21:23:46,709 | INFO | Cierre: Reserva con duración inválida
+2026-11-19 21:23:46,709 | INFO | Inicio: Reserva de sala con impuesto y descuento
+2026-11-19 21:23:46,709 | INFO | Éxito: Reserva de sala con impuesto y descuento
+2026-11-19 21:23:46,709 | INFO | Cierre: Reserva de sala con impuesto y descuento
+2026-11-19 21:23:46,709 | INFO | Inicio: Confirmación de sala
+2026-11-19 21:23:46,709 | INFO | Éxito: Confirmación de sala
+2026-11-19 21:23:46,709 | INFO | Cierre: Confirmación de sala
+2026-11-19 21:23:46,709 | INFO | Inicio: Reserva sobre servicio ocupado
+2026-11-19 21:23:46,709 | ERROR | Reserva sobre servicio ocupado: El servicio está ocupado o inactivo (ServicioNoDisponible)
+2026-11-19 21:23:46,709 | INFO | Cierre: Reserva sobre servicio ocupado
+2026-11-19 21:23:46,709 | INFO | Inicio: Procesamiento de sala
+2026-11-19 21:23:46,709 | INFO | Éxito: Procesamiento de sala
+2026-11-19 21:23:46,709 | INFO | Cierre: Procesamiento de sala
+2026-11-19 21:23:46,709 | INFO | Inicio: Cancelación de reserva procesada
+2026-11-19 21:23:46,710 | ERROR | Cancelación de reserva procesada: Solo se puede cancelar una reserva pendiente o confirmada (OperacionNoPermitida)
+2026-11-19 21:23:46,710 | INFO | Cierre: Cancelación de reserva procesada
+2026-11-19 21:23:46,710 | INFO | Inicio: Reserva de equipo con impuesto inconsistente
+2026-11-19 21:23:46,710 | ERROR | Reserva de equipo con impuesto inconsistente: No se pudo calcular el costo: revise impuesto y descuento (CalculoInvalido)
+2026-11-19 21:23:46,710 | INFO | Causa técnica: DatoInvalido
+2026-11-19 21:23:46,710 | INFO | Causa técnica: InvalidOperation
+2026-11-19 21:23:46,710 | INFO | Cierre: Reserva de equipo con impuesto inconsistente
+2026-11-19 21:23:46,710 | INFO | Inicio: Equipo desactivado
+2026-11-19 21:23:46,710 | INFO | Éxito: Equipo desactivado
+2026-11-19 21:23:46,710 | INFO | Cierre: Equipo desactivado
+2026-11-19 21:23:46,710 | INFO | Inicio: Reserva de equipo inactivo
+2026-11-19 21:23:46,710 | ERROR | Reserva de equipo inactivo: El servicio está ocupado o inactivo (ServicioNoDisponible)
+2026-11-19 21:23:46,710 | INFO | Cierre: Reserva de equipo inactivo
+2026-11-19 21:23:46,710 | INFO | Inicio: Equipo reactivado
+2026-11-19 21:23:46,710 | INFO | Éxito: Equipo reactivado
+2026-11-19 21:23:46,710 | INFO | Cierre: Equipo reactivado
+2026-11-19 21:23:46,710 | INFO | Inicio: Reserva de dos unidades de equipo
+2026-11-19 21:23:46,710 | INFO | Éxito: Reserva de dos unidades de equipo
+2026-11-19 21:23:46,710 | INFO | Cierre: Reserva de dos unidades de equipo
+2026-11-19 21:23:46,710 | INFO | Inicio: Cancelación de equipo
+2026-11-19 21:23:46,710 | INFO | Éxito: Cancelación de equipo
+2026-11-19 21:23:46,710 | INFO | Cierre: Cancelación de equipo
+2026-11-19 21:23:46,710 | INFO | Inicio: Reserva de asesoría presencial
+2026-11-19 21:23:46,710 | INFO | Éxito: Reserva de asesoría presencial
+2026-11-19 21:23:46,710 | INFO | Cierre: Reserva de asesoría presencial
+2026-11-19 21:23:46,710 | INFO | Inicio: Confirmación de asesoría
+2026-11-19 21:23:46,710 | INFO | Éxito: Confirmación de asesoría
+2026-11-19 21:23:46,710 | INFO | Cierre: Confirmación de asesoría
